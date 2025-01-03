@@ -34,4 +34,10 @@ public class EmployeeController {
     public Map<String, Long> countEmployeesByGender() {
         return employeeService.countEmployeesByGender();
     }
+    @GetMapping("/welcome")
+    public  String message(){
+        return "welcome .........";
+
+    }
 }
+

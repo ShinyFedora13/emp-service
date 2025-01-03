@@ -1,0 +1,15 @@
+server:
+  port: 5000
+spring:
+  application:
+    name: Employee-jpastreamer
+  datasource:
+    url: jdbc:mysql://database-1.c5ya42yc86bf.us-east-1.rds.amazonaws.com:3306/springboot
+    username: admin
+    password: springboot198
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
